@@ -21,7 +21,7 @@ class heroi{
             ataque = "shuriken";
             break;
           default:
-            ataque = "usou um ataque genérico";
+            ataque = "um ataque genérico";
         }
         return(`O ${this.tipoHeroi} atacou usando ${ataque}`);
     }
